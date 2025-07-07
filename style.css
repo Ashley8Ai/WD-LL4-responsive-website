@@ -1,0 +1,58 @@
+/* Set basic styles for the whole page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+/* Style for the hero section */
+.hero {
+  /* Add a background image */
+  background-image: url(img/1.jpg);
+  background-attachment: fixed; /* Keep the image fixed while scrolling */
+  background-size: cover; /* Make the image cover the whole section */
+  background-position: absolute; /* Center the image */
+  min-height: 100vh; /* Make hero take full height of the screen */
+  max-width: 100%;
+  height: auto;
+  padding: 20px; /* Add some space inside */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Style for the logo area */
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Style for the logo image */
+.logo img {
+  height: 32px;
+  margin-right: 8px;
+}
+
+/* Style for the hero text */
+.hero-text {
+  max-width: 100%;
+  line-height: 1.5;
+}
+
+/* Style for the main heading */
+.hero-text h1 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .hero {
+    padding: 10px;
+  }
+  .hero-text h1 {
+    font-size: 16px;
+  }
+}
