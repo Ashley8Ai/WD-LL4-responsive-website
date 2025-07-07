@@ -11,7 +11,7 @@ body {
   background-image: url(img/1.jpg);
   background-attachment: fixed; /* Keep the image fixed while scrolling */
   background-size: cover; /* Make the image cover the whole section */
-  background-position: absolute; /* Center the image */
+  background-position: center; /* Center the image */
   min-height: 100vh; /* Make hero take full height of the screen */
   max-width: 100%;
   height: auto;
